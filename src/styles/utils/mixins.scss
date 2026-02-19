@@ -15,7 +15,7 @@
   }
 }
 
-@for $len from 28 through 30 {
+@for $len from 28 through 31 {
   .calendar--month-length-#{$len} {
     @for $i from ($len + 1) through 31 {
       .calendar__day:nth-child(#{$i}) {
